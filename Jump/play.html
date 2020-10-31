@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id = "gameOver">
+    <div id = "overlay"></div>
+    <center>
+    <div id = "text">
+      <h2>Game Over</h2>
+      <p id = "score">Score : </p>
+      <p id = "highscore"></p>
+      <button id = "restart" onclick = "setup()">Play Again</button><br><br>
+      <button id = "restart" onclick = "window.location = 'index.html'">Home</button>
+      <p></p>
+    </div>
+    </center>
+  </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="bullets.js">
+	</script>
+  <script src="collide.js"></script>
+  <script src="player.js">
+	</script>
+  <script src="platforms.js">
+	</script>
+<script src="script.js">
+	</script>
+</body>
+
+</html>

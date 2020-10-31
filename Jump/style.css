@@ -1,0 +1,53 @@
+* {
+  
+  
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+body {
+  margin: 0;
+
+  overflow: hidden;
+}
+#gameOver {
+  display: none;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#text {
+  position: fixed;
+  left: 43%;
+  top: 20%;
+  width: 200px;
+  max-height: 400px;
+  background-color: white;
+  z-index: 1;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+button {
+  background-color: red;
+  color:white;
+  border: none;
+  padding: 15px;
+  width: 100px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#btns {
+  margin: auto;
+}

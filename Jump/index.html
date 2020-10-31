@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id = "gameOver">
+    <div id = "overlay"></div>
+    <center>
+    <div id = "text">
+      <h2>Instructions</h2>
+      <p>Use arrow keys to move</p>
+      <p>You can jump as long as you have jump fuel (you can even jump in mid-air)!</p>
+      <p>Avoid bullets!</p>
+      <p>Don't touch the bottom!</p>
+      <button id = "restart" onclick = "document.getElementById('gameOver').style.display = 'none'">Ok!</button>
+      <p></p>
+    </div>
+    </center>
+  </div>
+  <center>
+    <h1 style = "color: red;">Jump!</h1>
+    <img src = "Capture.JPG"></img>
+    <div id = "btns">
+    <button onclick = "window.location = 'play.html'">Play</button><br><br><br><br>
+    <button onclick = "document.getElementById('gameOver').style.display = 'block'">Instructions</button>
+    </dvi>
+  </center>
+  <script>
+    document.getElementById("btns").style.marginTop = (window.innerHeight / 2) - (window.innerHeight / 3) + "px"
+  </script>
+</body>
+
+</html>
