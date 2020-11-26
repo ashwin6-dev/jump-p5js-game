@@ -1,5 +1,5 @@
 # Jump - A game made with p5.js
-A game made using p5.js library. You can play this game here : https://jump.ashwinbose.repl.co/
+A game made using p5.js library. You can play this game here : https://ashwins-code.github.io/jump-p5js-game/Jump/
 
 ## What is p5.js? ##
 
